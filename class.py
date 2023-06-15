@@ -17,20 +17,20 @@ class OralStories:
         self.age_proup=age_group
 
     def record_story(self,story):
-        if self.length<50 and self.moral_lesson="obedient" and self.age_group<15:
+        if self.length<50 and self.moral_lesson=="obedient" and self.age_group<15:
             return f"this {story} is recorded for children"
-        elif self.length>50 and self.moral_lesson="hardworking" and self.age_group>15:
+        elif self.length>50 and self.moral_lesson=="hardworking" and self.age_group>15:
             return f"this {story} is recorded for students" 
         else:
-            return return f"this {story} is recorded for adults" 
+            return f"this {story} is recorded for adults" 
 
     def translate_story(self,languages):
-        if self.length<50 and self.moral_lesson="obedient" and self.age_group<15:
+        if self.length<50 and self.moral_lesson=="obedient" and self.age_group<15:
             return f"this {story} is tranlated to kiswahili"
-        elif self.length>50 and self.moral_lesson="hardworking" and self.age_group>15:
+        elif self.length>50 and self.moral_lesson=="hardworking" and self.age_group>15:
             return f"this {story} is translated to English" 
         else:
-            return return f"this {story} istranslated to mother tongue" 
+            return f"this {story} istranslated to mother tongue" 
 
             
 
@@ -109,7 +109,7 @@ class MusicFestival:
 #Create a class called Product with attributes for name, price, and quantity.
 #Implement a method to calculate the total value of the product (price * quantity).
 #Create multiple objects of the Product class and calculate their total values.
- class Product:
+class Product:
 
     def __init__(self,name,price,quantity):
         self.name=name
@@ -121,7 +121,7 @@ product1=Product("bread",100,2)
 product2=Product("salt",20,3)
 product3=Product("sugar",120,4)
 total_value=Product(product1,product2,product3)
-print(total_value.total_value_product())
+
 
 
 
@@ -141,7 +141,7 @@ class Student:
         if len(self.grades)/2>=60:
             return f"{self.name} who is {self.age} has passed" 
         else:
-            return f"{self.name} who is {self.age} has failed""       
+            return f"{self.name} who is {self.age} has failed"       
 
 
 #Q7
@@ -163,21 +163,18 @@ class FlightBooking:
 #books in a library. Implement methods to add new books, search for books by
 #title or author, keep track of available copies, and display book details.
 class LibraryCatalog:
-    
+
     def __init__(self,books,title,author):
         self.books=books
         self.title=title
         self.author=author
         self.cataloge=[]
-
-     
-        
-       
-    def add_book(self,new_book): 
-        for books in self.catalog:
-            if self.books == new_books:
-                catalog.books.append(new_book)
-                return catalog
-    def search_books(self):
+   
+    # def add_book(self,new_book): 
+    #     for books in self.catalog:
+    #         if self.books == new_books:
+    #             catalog.books.append(new_book)
+    #             return catalog
+    # def search_books(self):
 
 
